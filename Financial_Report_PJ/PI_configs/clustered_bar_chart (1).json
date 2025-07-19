@@ -1,0 +1,23 @@
+{
+  "visualType": "clusteredBarChart",
+  "dataFields": {
+    "Axis": "TransactionType",
+    "Values": "Count of TransactionID",
+    "Legend": "IsFraud",
+    "Tooltip": ["Average Amount", "IsInternational"]
+  },
+  "customizations": {
+    "colors": {
+      "IsFraud_0": "#4682B4",
+      "IsFraud_1": "#FF0000"
+    },
+    "dataLabels": true,
+    "yAxis": {
+      "title": "Loại Giao Dịch",
+      "sortBy": "TransactionTypeOrder"
+    },
+    "xAxis": {
+      "title": "Số Lượng Giao Dịch"
+    }
+  }
+}

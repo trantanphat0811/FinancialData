@@ -1,0 +1,21 @@
+{
+  "visualType": "boxAndWhisker",
+  "dataFields": {
+    "Category": "TransactionType",
+    "Values": "Amount",
+    "Legend": "IsFraud",
+    "Tooltip": ["Average TimeSinceLastTransaction", "IsInternational"]
+  },
+  "customizations": {
+    "yAxis": {
+      "scaleType": "logarithmic",
+      "title": "Số Tiền (USD)"
+    },
+    "colors": {
+      "IsFraud_0": "#4682B4",
+      "IsFraud_1": "#FF0000"
+    },
+    "outliers": true,
+    "dataLabels": true
+  }
+}

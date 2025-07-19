@@ -1,0 +1,26 @@
+{
+  "visualType": "scatterChart",
+  "dataFields": {
+    "X-Axis": "TimeSinceLastTransaction",
+    "Y-Axis": "Amount",
+    "Legend": "IsFraud",
+    "Size": "IsFraud",
+    "Tooltip": ["TransactionType", "IsInternational", "Amount"]
+  },
+  "customizations": {
+    "yAxis": {
+      "scaleType": "logarithmic",
+      "title": "Số Tiền (USD)"
+    },
+    "xAxis": {
+      "title": "Thời Gian Kể Từ Giao Dịch Trước (phút)"
+    },
+    "colors": {
+      "IsFraud_0": "#4682B4",
+      "IsFraud_1": "#FF0000"
+    },
+    "dataLabels": {
+      "showFor": "IsFraud=1"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "visualType": "clusteredColumnChart",
+  "dataFields": {
+    "Axis": "AmountBin",
+    "Values": "Count of TransactionID",
+    "Legend": "IsFraud",
+    "Tooltip": ["Average Amount", "TransactionType"]
+  },
+  "customizations": {
+    "colors": {
+      "IsFraud_0": "#4682B4",
+      "IsFraud_1": "#FF0000"
+    },
+    "dataLabels": true,
+    "xAxis": {
+      "title": "Khoảng Số Tiền (USD)",
+      "sortBy": "AmountBinOrder"
+    },
+    "yAxis": {
+      "title": "Số Lượng Giao Dịch"
+    }
+  }
+}

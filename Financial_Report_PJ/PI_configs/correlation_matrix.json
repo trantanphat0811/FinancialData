@@ -1,0 +1,21 @@
+{
+  "visualType": "matrix",
+  "dataFields": {
+    "Rows": "NumericCols1",
+    "Columns": "NumericCols2",
+    "Values": "Correlation",
+    "Tooltip": ["Correlation"]
+  },
+  "customizations": {
+    "conditionalFormatting": {
+      "type": "colorScale",
+      "minColor": "#4682B4",
+      "midColor": "#FFFFFF",
+      "maxColor": "#FF0000",
+      "minValue": -1,
+      "midValue": 0,
+      "maxValue": 1
+    },
+    "title": "Ma Trận Tương Quan"
+  }
+}
